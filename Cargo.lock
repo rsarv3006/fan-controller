@@ -218,7 +218,7 @@ name = "fan-controller"
 version = "0.1.0"
 dependencies = [
  "arduino-hal",
- "embedded-hal 1.0.0",
+ "embedded-hal 0.2.7",
  "nb 1.1.0",
  "panic-halt",
  "ufmt",
