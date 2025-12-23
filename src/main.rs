@@ -21,9 +21,8 @@ fn main() -> ! {
             None => ufmt::uwriteln!(&mut serial, "ERR:TEMP_READ_FAIL").ok(),
         };
 
-    arduino_hal::delay_ms(3000);
-}
-
+        arduino_hal::delay_ms(10000);
+    }
 }
 
 fn read_dht22<PIN>(
