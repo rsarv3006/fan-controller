@@ -1,7 +1,7 @@
 fan-controller
 ==============
 
-Rust project for the _Arduino Uno_.
+Rust project for the _Arduino Uno_. This project is twofold. Control a blower fan attached to a GPU or other source and read temperature from a DHT22 sensor. My specific usecase is to cool an Nvidia P40 card and read ambient air temps.
 
 ## Build Instructions
 1. Install prerequisites as described in the [`avr-hal` README] (`avr-gcc`, `avr-libc`, `avrdude`, [`ravedude`]).
